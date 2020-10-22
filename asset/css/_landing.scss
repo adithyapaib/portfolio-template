@@ -1,0 +1,25 @@
+.landing
+{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background: $dark;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+ .img{
+     background: $dark;
+     max-width: 100%;
+     width: 100vw;
+     display: flex;
+     .dummy 
+     {
+         width: 100%;
+         background: $dark;
+         margin-top: 14.35%;
+     }
+ }
+   
+}
