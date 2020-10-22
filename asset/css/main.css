@@ -25,20 +25,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  color: white;
 }
 
 .landing .img {
   background: #003140;
-  max-width: 100%;
-  width: 100vw;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.landing .img .dummy {
-  width: 100%;
-  background: #003140;
-  margin-top: 14.35%;
 }
 /*# sourceMappingURL=main.css.map */
