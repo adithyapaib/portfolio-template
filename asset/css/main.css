@@ -53,29 +53,6 @@
           flex-direction: column;
 }
 
-.landing .container h1 a {
-  -webkit-animation: discotext 3s infinite alternate;
-          animation: discotext 3s infinite alternate;
-}
-
-@-webkit-keyframes discotext {
-  0% {
-    color: white;
-  }
-  100% {
-    color: #00b2df;
-  }
-}
-
-@keyframes discotext {
-  0% {
-    color: white;
-  }
-  100% {
-    color: #00b2df;
-  }
-}
-
 @media only screen and (max-width: 800px) {
   .landing .img img {
     width: 100vw;
