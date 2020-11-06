@@ -53,6 +53,49 @@
           flex-direction: column;
 }
 
+.landing .container h1 {
+  background: #003140;
+  border-radius: 3px;
+  -webkit-box-shadow: 3px 3px 15px #025872, -3px -3px 15px #000000;
+          box-shadow: 3px 3px 15px #025872, -3px -3px 15px #000000;
+  color: white;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.landing .container h1 a {
+  background: white;
+  color: black;
+  padding-left: 7px;
+  padding-right: 3px;
+  border-radius: 3px;
+  outline: black 5px solid;
+}
+
+.landing .container h1 b {
+  -webkit-animation: 1s cursor infinite ease;
+          animation: 1s cursor infinite ease;
+}
+
+@-webkit-keyframes cursor {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes cursor {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .landing .img img {
     width: 100vw;
