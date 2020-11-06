@@ -106,4 +106,20 @@
     font-size: 1.8em;
   }
 }
+
+.about {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=main.css.map */
