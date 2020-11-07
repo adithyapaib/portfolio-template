@@ -1,7 +1,8 @@
 .landing
 {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: fit-content;
     max-width: 100%;
     background: $dark;
     display: flex;
@@ -24,26 +25,32 @@
      justify-content: center;
      align-items: center;
      flex-direction: column;
-     h1
+     .h1
      {
          
          
              background: #003140;
              border-radius: 3px;
-             box-shadow: 3px 3px 15px #025872, -3px -3px 15px #000000, ;
+             box-shadow: 3px 3px 15px #025872, -3px -3px 15px #000000 ;
              color: rgb(255, 255, 255);
-             padding: 10px;
+             padding: 20px;
               padding-left: 10px;
-              padding-right: 10px;
+              padding-right: 15px;
+              text-align: center;
+              line-height: 2;
               a
-              {  margin-left: 8px;
-                  background:white;
-                  color: black;
-                  padding-left: 7px;
-                  padding-right: 3px;
-                  border-radius: 7px;
-                  outline: black 4px solid;
+              {  margin-left: 8px; 
+                  padding: 8px ;
+                  font-size: 0.9em;
+                  border-radius: 8px 0px 0px 8px ;
+                  box-shadow: -3px -3px 10px #02587296, 3px 3px 10px #000000 ;
+                  margin-bottom: 100px;
               }
+              span 
+              {
+                   font-size: 0.7em;
+              }
+              
 
          
          b 
@@ -51,14 +58,9 @@
              animation: 1.2s cursor infinite ease;
              
          }
+         
      }
-     #typed
-     {
-        
-         height: 100px;
-         width: 46vh;
-         background: #000;
-     }
+     
  }
 }
 @keyframes cursor
@@ -77,6 +79,7 @@
 {
     .landing
     {
+       
         .img 
         {
              img 
@@ -87,11 +90,12 @@
         }
         .container
         {
-            h1
+            .h1
             {
                 margin-top: 15%;
                 font-size: 1.8em;
             }
+            
         }
     }
 }
