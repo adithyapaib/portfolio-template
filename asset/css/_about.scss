@@ -1,10 +1,37 @@
 .about
 {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     max-width: 100%;
-    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+flex-direction: column;
+
+    .container
+
+    {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: fit-content;
+        min-height: 30vh;
+       
+        margin-top: 10%;
+        .card
+    
+        {
+            background: #000;
+            min-height: 300px;
+            width: 50%;
+            max-width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    }
 }
