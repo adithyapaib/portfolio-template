@@ -69,7 +69,7 @@
 
 .landing .container .h1 {
   background: #003140;
-  border-radius: 3px;
+  border-radius: 10px;
   -webkit-box-shadow: 3px 3px 15px #025872, -3px -3px 15px #000000, inset 3px 3px 10px #ffffff10,inset -3px -3px 15px #00000033;
           box-shadow: 3px 3px 15px #025872, -3px -3px 15px #000000, inset 3px 3px 10px #ffffff10,inset -3px -3px 15px #00000033;
   color: white;
