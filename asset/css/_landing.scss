@@ -31,7 +31,7 @@
          
              background: #003140;
              border-radius: 3px;
-             box-shadow: 3px 3px 15px #025872, -3px -3px 15px #000000 ;
+             box-shadow: 3px 3px 15px #025872, -3px -3px 15px #000000, inset 3px 3px 10px #ffffff10,inset -3px -3px 15px #00000033;
              color: rgb(255, 255, 255);
              padding: 20px;
               padding-left: 10px;
@@ -43,7 +43,7 @@
                   padding: 8px ;
                   font-size: 0.9em;
                   border-radius: 8px 0px 0px 8px ;
-                  box-shadow: -3px -3px 10px #02587296, 3px 3px 10px #000000 ;
+                  box-shadow: -3px -3px 12px #ffffff27, 3px 3px 12px #000000ce ;
                   margin-bottom: 100px;
               }
               span 
