@@ -13,9 +13,8 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background-color: transparent;
   margin-top: 10px;
-  background-color: transparent;
+  background: #00b2df;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 10px;
@@ -100,6 +99,12 @@
 .landing .container h1 b {
   -webkit-animation: 1.2s cursor infinite ease;
           animation: 1.2s cursor infinite ease;
+}
+
+.landing .container #typed {
+  height: 100px;
+  width: 46vh;
+  background: #000;
 }
 
 @-webkit-keyframes cursor {
