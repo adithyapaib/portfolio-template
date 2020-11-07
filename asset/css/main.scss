@@ -10,23 +10,12 @@ $dark: #003140;
 
 ::-webkit-scrollbar {
      width: 15px;
-     background-color: transparent;
-     
-   }
-   
-   /* Track */
-   ::-webkit-scrollbar-track {
-     
-     margin-top: 10px;
-   background: $blue;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     margin-bottom: 10px;
      border-radius: 5px;
    }
+   
+   
    ::-webkit-scrollbar-thumb {
      background: $dark;
-     margin: 2px;
      border-radius: 5px;
    }
 
