@@ -78,7 +78,7 @@
   padding-left: 10px;
   padding-right: 15px;
   text-align: center;
-  line-height: 2;
+  line-height: 2.5;
 }
 
 .landing .container .h1 a {
@@ -90,11 +90,11 @@
   border-radius: 8px 8px;
   -webkit-box-shadow: -5px -5px 5px #ffffff3d, 5px 5px 10px #00000059;
           box-shadow: -5px -5px 5px #ffffff3d, 5px 5px 10px #00000059;
-  margin-bottom: 100px;
+  margin-bottom: 100px !important;
 }
 
 .landing .container .h1 span {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .landing .container .h1 b {
@@ -122,7 +122,7 @@
 
 @media only screen and (max-width: 800px) {
   .landing {
-    min-height: 80vh;
+    min-height: 78vh;
     max-height: -webkit-fit-content;
     max-height: -moz-fit-content;
     max-height: fit-content;
@@ -156,7 +156,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: #fff;
+  background: white;
 }
 
 .about svg {

@@ -12,5 +12,6 @@ window.addEventListener('scroll', function(e) {
     bones: 3,
     amplitude: 50,
     color: '#003140',
-    speed: .25
+    speed: .30,
+    timing: 0,
   });

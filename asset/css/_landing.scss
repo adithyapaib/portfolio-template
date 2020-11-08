@@ -36,7 +36,7 @@
               padding-left: 10px;
               padding-right: 15px;
               text-align: center;
-              line-height: 2;
+              line-height: 2.5;
               a
               {  margin-left: 8px; 
                   padding: 8px ;
@@ -45,11 +45,13 @@
                   color: black;
                   border-radius: 8px 8px ;
                   box-shadow: -5px -5px 5px #ffffff3d, 5px 5px 10px #00000059 ;
-                  margin-bottom: 100px;
+                  margin-bottom: 100px !important;
+                  
               }
               span 
               {
-                   font-size: 1em;
+                   font-size: 1.2em;
+ 
               }
               
 
@@ -80,7 +82,7 @@
 {
     .landing
     {
-        min-height: 80vh;
+        min-height: 78vh;
         max-height: fit-content;
 
        
