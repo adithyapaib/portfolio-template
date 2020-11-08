@@ -191,9 +191,30 @@
 .about .container .card {
   background: #000;
   min-height: 300px;
-  width: 50%;
-  max-width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100vw;
+  max-width: 600px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border-radius: 34px;
+  background: #ffffff;
+  -webkit-box-shadow: 5px 5px 10px #e4e2e2,  -5px -5px 10px #eeeded;
+          box-shadow: 5px 5px 10px #e4e2e2,  -5px -5px 10px #eeeded;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .container .card1 img {
+  width: 31vh;
+  height: 31vh;
 }
 /*# sourceMappingURL=main.css.map */

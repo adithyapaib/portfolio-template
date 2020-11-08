@@ -36,10 +36,26 @@ background: rgb(255, 255, 255);
         {
             background: #000;
             min-height: 300px;
-            width: 50%;
-            max-width: 80%;
-            margin-left: 10%;
-            margin-right: 10%;
+            height: fit-content;
+            width: 100vw;
+            max-width: 600px;
+            margin-left: 10vw;
+            margin-right: 10vw;
+            border-radius: 34px;
+background: #ffffff;
+box-shadow:  5px 5px 10px #e4e2e2, 
+             -5px -5px 10px #eeeded;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+        }
+        .card1
+        {
+            img 
+            {
+                 width: 31vh;
+                 height: 31vh;
+            }
         }
     }
 }
