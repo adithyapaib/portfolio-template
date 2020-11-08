@@ -27,7 +27,7 @@
      flex-direction: column;
      .h1
      {
-         
+          margin-bottom: 100px;
          
              background: #003140;
              border-radius: 10px;
@@ -42,8 +42,10 @@
               {  margin-left: 8px; 
                   padding: 8px ;
                   font-size: 0.9em;
-                  border-radius: 8px 0px 0px 8px ;
-                  box-shadow: -3px -3px 7px #ffffff18, 3px 3px 7px #0000008f ;
+                  background: rgb(255, 255, 255);
+                  color: black;
+                  border-radius: 8px 8px ;
+                  box-shadow: -5px -5px 5px #ffffff3d, 5px 5px 10px #00000059 ;
                   margin-bottom: 100px;
               }
               span 
