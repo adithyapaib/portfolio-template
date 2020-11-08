@@ -80,12 +80,15 @@
 {
     .landing
     {
+        min-height: 80vh;
+        max-height: fit-content;
+
        
         .img 
         {
              img 
              {
-                  width: 100vw;
+                  width: 100%;
                   
              }
         }
