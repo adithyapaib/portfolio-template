@@ -7,3 +7,10 @@ window.addEventListener('scroll', function(e) {
     typeSpeed:60,
     loop:true,
   });
+  var myWave = $('#myID').wavify({
+    height: 20,
+    bones: 3,
+    amplitude: 40,
+    color: '#003140',
+    speed: .25
+  });
