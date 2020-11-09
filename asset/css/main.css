@@ -189,7 +189,6 @@
 }
 
 .about .container .card {
-  background: #000;
   min-height: 300px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -199,9 +198,6 @@
   margin-left: 10vw;
   margin-right: 10vw;
   border-radius: 34px;
-  background: #ffffff;
-  -webkit-box-shadow: 5px 5px 10px #e4e2e2,  -5px -5px 10px #eeeded;
-          box-shadow: 5px 5px 10px #e4e2e2,  -5px -5px 10px #eeeded;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -211,10 +207,50 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-shadow: inset 5px -5px 15px #cacaca8f, inset -5px 5px 15px #dddddd8f, 5px 5px 15px rgba(0, 0, 0, 0.137);
+          box-shadow: inset 5px -5px 15px #cacaca8f, inset -5px 5px 15px #dddddd8f, 5px 5px 15px rgba(0, 0, 0, 0.137);
+}
+
+.about .container .card1 {
+  border-top: 15px #003140 solid;
+  border-bottom: 15px #003140 solid;
+  padding: 2em;
+}
+
+.about .container .card1 .title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #003140;
+  font-weight: bold;
 }
 
 .about .container .card1 img {
   width: 31vh;
   height: 31vh;
+  border-radius: 30%;
+  margin-bottom: 40px;
+}
+
+.about .container .card1 p {
+  text-align: center;
+  line-height: 1.8;
+}
+
+.about .container .card1 .resume {
+  text-decoration: none;
+  background: #003140;
+  color: white;
+  margin-top: 30px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+  -webkit-box-shadow: -3px -3px 5px #696868f1, 3px 3px 10px #3b3b3ba1;
+          box-shadow: -3px -3px 5px #696868f1, 3px 3px 10px #3b3b3ba1;
 }
 /*# sourceMappingURL=main.css.map */
