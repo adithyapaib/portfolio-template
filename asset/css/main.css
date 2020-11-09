@@ -213,13 +213,13 @@
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  border-top: 15px #003140 solid;
+  border-bottom: 15px #003140 solid;
   -webkit-box-shadow: inset 5px -5px 15px #cacaca8f, inset -5px 5px 15px #dddddd8f, 5px 5px 15px rgba(0, 0, 0, 0.137);
           box-shadow: inset 5px -5px 15px #cacaca8f, inset -5px 5px 15px #dddddd8f, 5px 5px 15px rgba(0, 0, 0, 0.137);
 }
 
 .about .container .card1 {
-  border-top: 15px #003140 solid;
-  border-bottom: 15px #003140 solid;
   padding: 2em;
 }
 
@@ -252,5 +252,13 @@
   border-radius: 15px;
   -webkit-box-shadow: -3px -3px 5px #696868f1, 3px 3px 10px #3b3b3ba1;
           box-shadow: -3px -3px 5px #696868f1, 3px 3px 10px #3b3b3ba1;
+}
+
+.about .container .card2 .title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #003140;
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */
