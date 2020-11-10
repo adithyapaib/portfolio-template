@@ -193,8 +193,8 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  width: 100vw;
-  max-width: 600px;
+  width: 600px;
+  max-width: 80vw;
   margin-left: 10vw;
   margin-right: 10vw;
   border-radius: 34px;
