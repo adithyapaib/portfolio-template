@@ -279,10 +279,11 @@
   height: -moz-max-content;
   height: max-content;
   padding: 20px;
+  padding-bottom: 2em;
 }
 
 .about .container .card2 span {
-  margin-top: 3rem;
+  margin-top: 2em;
   margin-bottom: 0.5em;
   font-weight: bolder;
 }
@@ -312,5 +313,53 @@
 .about .container .card2 .mainlist .sublist {
   list-style: none;
   margin-left: 20px;
+}
+
+.about .container .card3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about .container .card3 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 10%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+}
+
+.about .container .card3 ul li {
+  float: left;
+  text-decoration: none;
+}
+
+.about .container .card3 ul li a {
+  text-decoration: none;
+  font-size: 2em;
+  margin-right: 10px;
+  color: black;
+}
+
+.about .container .card3 ul li a:hover {
+  color: #003140;
 }
 /*# sourceMappingURL=main.css.map */

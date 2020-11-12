@@ -110,9 +110,10 @@ background: rgb(255, 255, 255);
           position: relative;
           height: max-content;
           padding: 20px; 
+          padding-bottom: 2em;
           span 
           {
-              margin-top: 3rem;
+              margin-top: 2em;
               margin-bottom: 0.5em;
               font-weight: bolder;
           }
@@ -139,5 +140,43 @@ background: rgb(255, 255, 255);
           
           
         }
+        .card3
+        {
+             
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+             ul
+             {
+                  display: flex;
+                  width: 100%;
+                  margin-top: 10%;
+                  justify-content: space-evenly;
+                  align-items: center;
+                  flex-wrap: wrap;
+               
+                  list-style: none;
+                  li
+                  {
+
+                       float: left;
+                       text-decoration: none;
+                        a
+                        {
+                             text-decoration: none;
+                             font-size: 2em;
+                             margin-right: 10px;
+                             color: black;
+                              &:hover
+                              {
+                                   color: $dark;
+                              }
+                        }
+                  }
+             }
+        }
+     
     }
 }
