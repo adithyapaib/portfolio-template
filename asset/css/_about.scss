@@ -106,19 +106,38 @@ background: rgb(255, 255, 255);
         }
         .card2 
         {
-             .title 
-             {
-                width: 100%;
-                
-                text-align: center;
-                margin-bottom: 20px;
-                color: $dark;
-                font-weight: bold;
-             }
-             
-            
-             
-             
+          font-size: 1em;
+          position: relative;
+          height: max-content;
+          padding: 20px; 
+          span 
+          {
+              margin-top: 3rem;
+              margin-bottom: 0.5em;
+              font-weight: bolder;
+          }
+          .mainlist
+          {  width: 100%;
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              flex-wrap: wrap;
+              list-style: none;
+              text-align: center;
+              
+              .icon{
+                  margin-top: 20px;
+                  margin-right: 10px;
+              }
+              .sublist
+              {
+                 
+                  list-style: none;
+                  margin-left: 20px;
+              }
+          }
+          
+          
         }
     }
 }

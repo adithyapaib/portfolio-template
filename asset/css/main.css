@@ -272,11 +272,45 @@
           box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.445), -3px -3px 8px #003140a4;
 }
 
-.about .container .card2 .title {
+.about .container .card2 {
+  font-size: 1em;
+  position: relative;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 20px;
+}
+
+.about .container .card2 span {
+  margin-top: 3rem;
+  margin-bottom: 0.5em;
+  font-weight: bolder;
+}
+
+.about .container .card2 .mainlist {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
   text-align: center;
-  margin-bottom: 20px;
-  color: #003140;
-  font-weight: bold;
+}
+
+.about .container .card2 .mainlist .icon {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.about .container .card2 .mainlist .sublist {
+  list-style: none;
+  margin-left: 20px;
 }
 /*# sourceMappingURL=main.css.map */
