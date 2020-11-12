@@ -430,4 +430,16 @@
   -webkit-box-shadow: 5px 5px 10px #0a0a0a3f, -5px -5px 10px rgba(12, 202, 250, 0.384);
           box-shadow: 5px 5px 10px #0a0a0a3f, -5px -5px 10px rgba(12, 202, 250, 0.384);
 }
+
+@media only screen and (max-width: 800px) {
+  .projects {
+    margin-top: 30%;
+  }
+  .projects svg {
+    margin-top: -30%;
+  }
+  .projects .project-card {
+    margin-bottom: 50px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

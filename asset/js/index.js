@@ -16,7 +16,7 @@ window.addEventListener('scroll', function(e) {
   });
   var myWave = $('#projectsvg').wavify({
     height: 50,
-    bones: 3,
+    bones: 4,
     amplitude: 40,
     color: '#0',
     speed: .30,

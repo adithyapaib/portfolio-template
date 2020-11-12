@@ -48,3 +48,19 @@
         
  }
 }
+@media only screen and (max-width: 800px)
+{ .projects
+    {
+        margin-top: 30%;
+        svg
+        {
+            margin-top: -30%;
+        }
+        .project-card
+        {
+             margin-bottom: 50px;
+        }
+
+    }
+    
+}
