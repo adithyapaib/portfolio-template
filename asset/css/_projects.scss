@@ -1,16 +1,50 @@
 .projects
 {
     min-height: 100vh;
+    width: 100vw;
     max-width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-flex-direction: column;
+    background: #000;
+    margin-top: 10%;
+    color: #ffffff;
+ span
+ {
+      width: 100%;
+      text-align: center;
+      font-size: 1.5em;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      
+ }
+ svg 
+ {
+      width: 100%;
+      height: fit-content;
+      transform: rotate(0deg);
+      margin-top: -10%;
+      
+ }
 .project-card 
 {
     
+            min-height: 300px;
+            height: fit-content;
+            width: 450px;
+            max-width: 80vw;
+            margin-left: 10vw;
+            margin-right: 10vw;
+            border-radius: 34px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+             flex-wrap: wrap;
+             border-top: 15px rgb(255, 255, 255) solid;
+             border-bottom: 15px rgb(255, 255, 255) solid;
+           box-shadow: 5px 5px 10px #0a0a0a3f, -5px -5px 10px rgba(12, 202, 250, 0.384)
+        
  }
 }

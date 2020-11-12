@@ -7,10 +7,17 @@ window.addEventListener('scroll', function(e) {
     typeSpeed:60,
     loop:true,
   });
-  var myWave = $('#myID').wavify({
+  var myWave = $('#landingsvg').wavify({
     height: 50,
     bones: 3,
     amplitude: 40,
     color: '#003140',
+    speed: .30,
+  });
+  var myWave = $('#projectsvg').wavify({
+    height: 50,
+    bones: 3,
+    amplitude: 40,
+    color: '#0',
     speed: .30,
   });
