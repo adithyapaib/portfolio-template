@@ -7,9 +7,10 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background: #000;
+    background: #080808;
     margin-top: 10%;
     color: #ffffff;
+    padding-bottom: 30px;
  span
  {
       width: 100%;
@@ -24,7 +25,7 @@
       width: 100%;
       height: fit-content;
       transform: rotate(0deg);
-      margin-top: -10%;
+      margin-top: -5%;
       
  }
 .project-card 
@@ -32,9 +33,11 @@
     
             min-height: 300px;
             height: fit-content;
+            padding: 5px;
             width: 450px;
             max-width: 80vw;
             margin-left: 10vw;
+            margin-top: 100px;
             margin-right: 10vw;
             border-radius: 34px;
              display: flex;
@@ -42,10 +45,58 @@
              align-items: center;
              flex-direction: column;
              flex-wrap: wrap;
-             border-top: 15px rgb(255, 255, 255) solid;
-             border-bottom: 15px rgb(255, 255, 255) solid;
-           box-shadow: 5px 5px 10px #0a0a0a3f, -5px -5px 10px rgba(12, 202, 250, 0.384)
-        
+             border-left: 15px white solid;
+             border-right: 15px rgb(255, 255, 255) solid;
+           box-shadow: 5px 5px 15px #000000, -5px -5px 20px rgba(235, 235, 235, 0.164);
+         img 
+         {
+              
+              max-width: 60%;
+              border-radius: 35px;
+              height: 250px;
+         }
+         .title
+         {
+              margin-top: 15px;
+         }
+         .dec
+         {
+             display: none;
+            
+             
+         }
+         &:hover, &:focus
+         {
+             img
+             {
+                 display: none;
+             }
+           .dec
+           {
+               display: block;
+               width: 100%;
+            text-align: center;
+               height: fit-content;
+              
+               p
+               {
+                padding: 5px;
+                margin-top: 5px;
+                color: white;
+                
+               }
+
+               a 
+               {
+                   
+                    padding: 10px;
+                    text-decoration: none;
+                    color:black;
+                    background: white;
+                    border-radius: 3px;
+               }
+           }
+         }
  }
 }
 @media only screen and (max-width: 800px)
@@ -58,9 +109,36 @@
         }
         .project-card
         {
+            
              margin-bottom: 50px;
+             padding: 0 !important;
+             img 
+             {
+                
+              width: 41vw;
+              height: 41vw;
+              margin-bottom: 10px;
+              border: white solid 5px;
+
+             
+             }
         }
 
     }
     
+}
+.footer
+{
+    background: #080808;
+    text-align: center;
+    color: whitesmoke;
+     width: 100%;
+     padding-top: 100px;
+     padding-bottom: 80px;
+     a 
+     {
+          
+          color: red;
+     }
+     
 }

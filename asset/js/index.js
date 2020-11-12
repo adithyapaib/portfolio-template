@@ -18,6 +18,6 @@ window.addEventListener('scroll', function(e) {
     height: 50,
     bones: 4,
     amplitude: 40,
-    color: '#0',
+    color: '#080808',
     speed: .30,
   });

@@ -377,9 +377,10 @@
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background: #000;
+  background: #080808;
   margin-top: 10%;
   color: #ffffff;
+  padding-bottom: 30px;
 }
 
 .projects span {
@@ -397,7 +398,7 @@
   height: fit-content;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
-  margin-top: -10%;
+  margin-top: -5%;
 }
 
 .projects .project-card {
@@ -405,9 +406,11 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  padding: 5px;
   width: 450px;
   max-width: 80vw;
   margin-left: 10vw;
+  margin-top: 100px;
   margin-right: 10vw;
   border-radius: 34px;
   display: -webkit-box;
@@ -425,10 +428,51 @@
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border-top: 15px white solid;
-  border-bottom: 15px white solid;
-  -webkit-box-shadow: 5px 5px 10px #0a0a0a3f, -5px -5px 10px rgba(12, 202, 250, 0.384);
-          box-shadow: 5px 5px 10px #0a0a0a3f, -5px -5px 10px rgba(12, 202, 250, 0.384);
+  border-left: 15px white solid;
+  border-right: 15px white solid;
+  -webkit-box-shadow: 5px 5px 15px #000000, -5px -5px 20px rgba(235, 235, 235, 0.164);
+          box-shadow: 5px 5px 15px #000000, -5px -5px 20px rgba(235, 235, 235, 0.164);
+}
+
+.projects .project-card img {
+  max-width: 60%;
+  border-radius: 35px;
+  height: 250px;
+}
+
+.projects .project-card .title {
+  margin-top: 15px;
+}
+
+.projects .project-card .dec {
+  display: none;
+}
+
+.projects .project-card:hover img, .projects .project-card:focus img {
+  display: none;
+}
+
+.projects .project-card:hover .dec, .projects .project-card:focus .dec {
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.projects .project-card:hover .dec p, .projects .project-card:focus .dec p {
+  padding: 5px;
+  margin-top: 5px;
+  color: white;
+}
+
+.projects .project-card:hover .dec a, .projects .project-card:focus .dec a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  background: white;
+  border-radius: 3px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -440,6 +484,26 @@
   }
   .projects .project-card {
     margin-bottom: 50px;
+    padding: 0 !important;
   }
+  .projects .project-card img {
+    width: 41vw;
+    height: 41vw;
+    margin-bottom: 10px;
+    border: white solid 5px;
+  }
+}
+
+.footer {
+  background: #080808;
+  text-align: center;
+  color: whitesmoke;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.footer a {
+  color: red;
 }
 /*# sourceMappingURL=main.css.map */
