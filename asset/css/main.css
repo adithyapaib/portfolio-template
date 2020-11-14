@@ -4,6 +4,7 @@
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
+  cursor: url("/asset/img/cursor.png"), auto;
 }
 
 ::-webkit-scrollbar {
@@ -394,7 +395,7 @@
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background: #080808;
+  background: #1267EF;
   margin-top: 10%;
   color: #ffffff;
   padding-bottom: 30px;
@@ -445,10 +446,10 @@
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border-left: 15px white solid;
-  border-right: 15px white solid;
-  -webkit-box-shadow: 5px 5px 15px #000000, -5px -5px 20px rgba(235, 235, 235, 0.164);
-          box-shadow: 5px 5px 15px #000000, -5px -5px 20px rgba(235, 235, 235, 0.164);
+  border-top: 15px white solid;
+  border-bottom: 15px white solid;
+  -webkit-box-shadow: 5px 5px 15px #00000031, -5px -5px 20px #0461f775;
+          box-shadow: 5px 5px 15px #00000031, -5px -5px 20px #0461f775;
 }
 
 .projects .project-card img {
@@ -463,6 +464,10 @@
 
 .projects .project-card .dec {
   display: none;
+}
+
+.projects .project-card:hover, .projects .project-card:focus {
+  background: #000;
 }
 
 .projects .project-card:hover img, .projects .project-card:focus img {

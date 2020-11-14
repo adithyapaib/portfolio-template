@@ -7,7 +7,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background: #080808;
+    background: #1267EF;
     margin-top: 10%;
     color: #ffffff;
     padding-bottom: 30px;
@@ -45,9 +45,10 @@
              align-items: center;
              flex-direction: column;
              flex-wrap: wrap;
-             border-left: 15px white solid;
-             border-right: 15px rgb(255, 255, 255) solid;
-           box-shadow: 5px 5px 15px #000000, -5px -5px 20px rgba(235, 235, 235, 0.164);
+             
+             border-top: 15px white solid;
+             border-bottom: 15px rgb(255, 255, 255) solid;
+           box-shadow: 5px 5px 15px #00000031, -5px -5px 20px #0461f775;
          img 
          {
               
@@ -67,6 +68,7 @@
          }
          &:hover, &:focus
          {
+             background: #000;
              img
              {
                  display: none;

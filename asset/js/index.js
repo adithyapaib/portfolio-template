@@ -18,7 +18,7 @@ window.addEventListener('scroll', function(e) {
     height: 50,
     bones: 4,
     amplitude: 40,
-    color: '#080808',
+    color: '#1267EF',
     speed: .30,
   });
   AOS.init();
