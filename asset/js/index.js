@@ -21,3 +21,4 @@ window.addEventListener('scroll', function(e) {
     color: '#080808',
     speed: .30,
   });
+  AOS.init();
