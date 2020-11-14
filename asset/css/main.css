@@ -16,6 +16,23 @@
   border-radius: 5px;
 }
 
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 1px 1px 5px #b8b7b7, inset 1px 1px 5px #0000004b;
+  box-shadow: inset 1px 1px 5px #b8b7b7, inset 1px 1px 5px #0000004b;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+  border-radius: 10px;
+}
+
 .landing {
   width: 100vw;
   min-height: 100vh;
