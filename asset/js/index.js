@@ -22,3 +22,6 @@ window.addEventListener('scroll', function(e) {
     speed: .30,
   });
   AOS.init();
+  $(window).load(function() {
+    $('#preloader').css('display',"none");
+ });
