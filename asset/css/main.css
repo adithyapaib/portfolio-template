@@ -420,6 +420,10 @@
   color: #003140;
   font-weight: bold;
 }
+.title{
+  font-weight: 800;
+  color: #36a9cc;
+}
 
 .about .container .card1 .img {
   padding: 10px;
@@ -458,8 +462,16 @@
   margin-top: 30px;
   padding: 10px 20px 10px 20px;
   border-radius: 15px;
-  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.445), -3px -3px 8px #003140a4;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.445), -3px -3px 8px #003140a4;
+  -webkit-box-shadow: 3px 3px 14px rgba(0, 0, 0, 0.445), -3px -3px 14px #003140a4;
+  box-shadow: 3px 3px 14px rgba(0, 0, 0, 0.445), -3px -3px 14px #003140a4;
+  transition: 0.4s;
+}
+.resume:hover{
+  cursor: pointer;
+  transform: translate(-2px,2px);
+  -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.445), -2px -2px 8px #003140a4;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.445), -2px -2px 8px #003140a4;
+  font-weight: 700;
 }
 
 .about .container .card2 {
@@ -545,14 +557,41 @@
 .about .container .card3 ul li a {
   text-decoration: none;
   font-size: 2em;
+  cursor: pointer;
   margin-right: 10px;
   color: black;
 }
 
-.about .container .card3 ul li a:hover {
-  color: #003140;
+.about .container .card3 ul li a:hover :first-child{
+  cursor: pointer;
+}
+.gt{
+  background-color: white;
+  color: black;
 }
 
+.gt,.twtr,.el,.ln{padding: 5px;border-radius: 5px;transition: 0.4s;}
+.ln{
+  color: #0E76A8;
+}
+.ln:hover{
+  background-color: #0E76A8;
+  color: white;
+}
+.twtr{
+  color: #08A0E9;
+}
+.el{
+  color: rgb(145, 6, 6);
+}
+.el:hover{
+  background-color: rgb(145, 6, 6);
+  color: white;
+}
+.twtr:hover{
+  background-color: #08A0E9;
+  color: white;
+}
 .projects {
   min-height: 100vh;
   width: 100vw;
@@ -662,17 +701,20 @@
 .projects .project-card:focus .dec p {
   padding: 5px;
   margin-top: 5px;
-  color: white;
+  color:white;
 }
 
 .projects .project-card:hover .dec a,
 .projects .project-card:focus .dec a {
   padding: 10px;
   text-decoration: none;
+  cursor: pointer;
   color: black;
+  font-weight: 700;
   background: white;
   border-radius: 3px;
 }
+
 
 @media only screen and (max-width: 800px) {
   .projects {
