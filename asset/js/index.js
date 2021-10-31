@@ -41,4 +41,4 @@ $( "#close" ).click(function() {
       });
   });
 });
- 
+ //javascript file
